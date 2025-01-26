@@ -359,8 +359,8 @@ while running:
     win = is_end()
     if win is not None:
         win_text1 = font.render(f"{win}", True, (255, 255, 255))
-        win_text2 = font.render(f"Убито синих юнитов: {units_killed_red}", True, (255, 255, 255))
-        win_text3 = font.render(f"Убито красных юнитов: {units_killed_blue}", True, (255, 255, 255))
+        win_text2 = font.render(f"Уничтожено синих юнитов: {units_killed_red}", True, (255, 255, 255))
+        win_text3 = font.render(f"Уничтожено красных юнитов: {units_killed_blue}", True, (255, 255, 255))
         screen.blit(win_text1, (0, 600))
         screen.blit(win_text2, (0, 636))
         screen.blit(win_text3, (0, 672))
